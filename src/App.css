@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    background-color: #222;
+}
+
+
+.nav-P{
+    /* background-color: #222; */
+    padding: 8px;
+    margin: 0px 16px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+/* .nav-P:hover{
+    background-color: #2222224f;
+} */
+
+.nav-deenk{
+    color: #222;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav-deenk:hover{
+    color: #408084;
+    transition: 250ms;
+}
+
+
+/* HEADER */
+
+
+.deenk-navbar{
+    background-image:linear-gradient(#222 , #fffdfa36), url(./assets/Cover_Header.jpg);
+    border-radius: 16px;
+    margin: 0px 16px;
+}
+
+.deenk-navbar form input{
+    background-color: #FFFDFA;
+    border: none;
+}
+
+.icon-basket i{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: #FFFDFA;
+}
+
+
+/* Añadirle a este boton el mismo padding que al SEARCH */
+
+
+.btn-carrito{
+    color:#FFFDFA;
+    background-color: #222;
+    padding: 0.55rem;
+    border-radius: 8px;
+    border: 1px solid #FFFDFA;
+    margin-left: -8px;
+}
+
+.btn-carrito:hover{
+    color: #222;
+    background-color: #FFFDFA;
+    transition: 200ms;
+}
+
+.bg-cantidad-carrito{
+    background-color: #408084;
+}
+
+
+/* LOGOS CONTAINER */
+
+
+.title-native-comp{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+   
+}
+
+.logos-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+
+/* LOGIN Y REGISTRO */
+
+
+.login-registro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    margin: 32px 16px;
+    padding: 16px;
+
+}
+
+.login label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    padding: 8px;
+    box-shadow: 2px 2px 2px #222;
+    border-radius: 8px;
+}
+
+.login input{
+    text-align: left;
+    color: #FFFDFA;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #222222;
+}
+
+.btn-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.btn-login button{
+    color: #FFFDFA;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    background-color: #408084;
+    margin-bottom: 8px;
+    box-shadow: 2px 2px 2px #222;
+    cursor: pointer;
+}
+
+.signup-link a{
+    text-decoration: none;
+    color: #222;
+}
+
+.welcome-class{
+    padding: 32px;
+    border-bottom: 1px solid #222;
+    border-left: 10px solid #222;
+}
+
+.welcome-class h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bakbak One', cursive;
+    font-size: 60px;
+    text-shadow: -4px 0px 2px #dbcbcb;
+}
+
+.welcome-class p{
+    margin: 0;
+}
+
+.welcome-class p a{
+    color: #222;
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+/* IMAGENES DE PORTADAS */
+
+
+.title-img{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px;
+}
+
+.images-design-scroll{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #222;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 0px 16px;
+    margin-bottom: 32px;
+    opacity: 30%;
+}
+
+.images-design-scroll:hover{
+    opacity: 100%;
+    transition: 300ms;
+}
+
+.icon-face{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.icon-face:hover{
+    color: #408084;
+    transition: 250ms;
+}
+
+
+/* FOOTER */
+
+
+.container-footer{
+    color: #FFFDFA;
+    background-image: linear-gradient(#222 , #fffdfa36), url(./assets/Cover_Header.jpg);
+    background-position: bottom;
+    padding: 32px;
+    margin: 0px 16px;
+    margin-bottom: 16px;
+    border-radius: 16px;
+    font-size: 1rem;
+}
+
+.container-footer button{
+    color: #FFFDFA;
+    border: 0px solid #FFFDFA;
+}
+
+.container-footer button:hover{
+    color: #222;
+    background-color: #FFFDFA;
+}
+
+
+/* BENEFITS */
+
+
+.benefits-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+.benefits-independientes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits-container p{
+    text-align: center;
+}
+
+
+/* PRODUCTOS */
+
+
+.cards-todas{
+    margin: 0px 16px;
+}
+
+.title{
+    display: flex;
+    gap: 16px;
+}
+
+.title i{
+    font-size: 40px;
+}
+
+.p-destacados{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px;
+}
+
+.titulo-p-destacados h2{
+    margin-top: 8px;
+    padding: 0;
+}
+
+.titulo-p-destacados p{
+    margin-top: 4px;
+    padding: 0;
+}
+
+.titulo-p-destacados i:hover{
+    color: #408084;
+    transition: 250ms;
+}
+
+
+/* CARDS */
+
+.btn-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-cards a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFDFA;
+    background-color: #408084;
+    background-size: cover;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* .btn-cards a:hover{
+    color: #FFFDFA;
+    background-color: #222;
+    transition: 300ms;
+} */
+
+
+/* TESTIMONIOS */
+
+.container-testimonios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+    border-left: 8px solid #222;
+    border-right: 8px solid #222;
+    border-radius: 8px;
+    margin: 48px 16px;
+    padding: 32px;
+    gap: 16px;
+}
+
+.testimonio-container1 a{
+    color: #FFFDFA;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    background-color: #408084;
+    margin-bottom: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* DETALLES PRODUCTO GENERAL */
+
+
+.detalles-creatures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+    margin: 32px 16px;
+    border: 2px solid #222;
+    border-radius: 16px;
+}
+
+.detalles-creatures img{
+    border-radius: 16px;
+}
+
+.preview-video{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.info-detalle{
+    display: flex;
+    flex-direction: column;
+}
+
+.añadir-cantidad-carrito-btn{
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.añadir-cantidad-carrito-btn input{
+    border-radius: 8px;
+    border: none;
+    background-color: #22222271;
+    padding: 8px;
+}
+
+.add-basket-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFDFA;
+    background-color: #408084;
+    background-size: cover;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+}
+
+
+.info-detallada-producto{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 16px;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+    border-left: 8px solid #222;
+    border-right: 8px solid #222;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.info-detallada-producto-ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* OPINIONES DE USUARIOS */
+
+.title-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.title-icon i:hover{
+    color: #408084;
+    transition: 250ms;
+}
+
+.container-opiniones{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.opiniones-destacadas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 16px 16px;
+}
+
+.opiniones-detalles-producto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 16px;
+}
+
+.bloque-individual-opiniones{
+    border-left: 1px dotted #222;
+    padding: 16px;
+}
+
+.bloque-individual-opiniones h5{
+    font-weight: bold;
+}
+
+.opiniones-destacadas button{
+    color: #FFFDFA;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    background-color: #408084;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.bio-img h1{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px;
+}
+
+.bio-img p{
+    display: flex;
+    justify-content: center;
+    margin: 8px 16px;
+}
+
+.video-logo{
+    display: block;
+    text-align: center;
+    margin: 32px 16px;
+    padding: 32px;
+    border-radius: 16px;
+    background-image: url(../src/assets/tareq-ajalyakin-72aEtYlS5K0-unsplash.jpg); 
+}
+
+.video-logo video{
+    border-radius: 16px;
+}
+
+
